@@ -29,7 +29,7 @@ agent = Agent(
 result = Runner.run_sync(
     agent,
     input="What will be  the best field in 2030?, ai,ml,se,data science,web development, and also tell why",
-    run_config=config,
+    run_config=config,  
 )
 print(result.final_output)  # Should print "Paris"
 
